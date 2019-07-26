@@ -1,6 +1,46 @@
-body{
-  background: red;
+body {
+  background-image: url(https://media.giphy.com/media/xT1R9EWRnj0ECAHcvC/giphy.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'News Cycle', sans-serif;
 }
-h3{
-  margin-top: 40px;
+
+h1 {
+  color: #D4AC0D;
+  margin-bottom: 5px;
+  font-size: 4.5em;
+  font-family: 'Lacquer', sans-serif;
+}
+
+h2, h3 {
+  color: white;
+  margin-bottom:16px;
+  font-family: 'Lacquer', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  margin-left: 2%;
+  font-size: 1.2em;
+  color: white;
+}
+
+input {
+  width: 25%;
+  height: 40px;
+  margin-top:60px;
+  margin-left:.5%;
+}
+
+button {
+  width: 10%;
+  height: 40px;
+  border-radius: 7%;
+}
+
+.hidden {
+  display: none;
 }
